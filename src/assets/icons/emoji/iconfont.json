@@ -1,0 +1,121 @@
+{
+  "id": "3433747",
+  "name": "chat_emoji",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15821664",
+      "name": "表情",
+      "font_class": "biaoqing",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "1213",
+      "name": "吃惊",
+      "font_class": "chijing",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1214",
+      "name": "呆",
+      "font_class": "dai",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1216",
+      "name": "魔鬼",
+      "font_class": "mogui",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1217",
+      "name": "尴尬",
+      "font_class": "ganga",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1218",
+      "name": "亲",
+      "font_class": "qin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1219",
+      "name": "怒",
+      "font_class": "nu",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "1220",
+      "name": "眨眼",
+      "font_class": "zhayan",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "1221",
+      "name": "生气",
+      "font_class": "shengqi",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "1222",
+      "name": "骂",
+      "font_class": "ma",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "1223",
+      "name": "鄙视",
+      "font_class": "bishi",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "1224",
+      "name": "卖萌",
+      "font_class": "maimeng",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "1225",
+      "name": "惊呆",
+      "font_class": "jingdai",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1263",
+      "name": "哭脸",
+      "font_class": "kulian",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "363313",
+      "name": "表情",
+      "font_class": "xiaolian",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1299915",
+      "name": "Expression-2",
+      "font_class": "weixiao",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    }
+  ]
+}

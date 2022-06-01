@@ -1,0 +1,1 @@
+type verifys = { [propName: string]: verify[] }

@@ -1,0 +1,48 @@
+@emojiArr: chijing,dai,mogui,ganga,qin,nu,zhayan,shengqi,ma,bishi,maimeng,jingdai,kulian,xiaolian,weixiao;
+@len : length(@emojiArr);
+.each-emoji(@index) when(@index <= @len) {
+  @name : extract(@emojiArr , @index);
+  // 拼接.color-名称
+  .icon-@{name}{
+  	font-size: 25px;
+    color: orange;
+  }
+  .each-emoji(@index+1);
+}
+.each-emoji(0);
+
+.icon-biaoqing{
+  position: relative;
+  & > div{
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    width: 350px;
+    max-height: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px #c2c2c2;
+    & > div{
+      width: 350px;
+      max-height: 350px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      & > span{
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        margin: 5px !important;
+      }
+    }
+  }
+  & > div::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    border-top: 10px solid #fff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+}
